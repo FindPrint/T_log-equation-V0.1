@@ -1,0 +1,18 @@
+timestamp,level,message
+2025-10-24T02:21:01.501877+00:00,INFO,"Bloc 1 prêt: imports, seeds, dossiers et logger configurés."
+2025-10-24T02:21:01.507310+00:00,INFO,Plot de vérification sauvegardé: results/env_check_plot.png
+2025-10-24T02:24:24.845184+00:00,INFO,Fichier /content/data/Urban Air Quality & Climate Dataset (1958-2025).zip décompressé dans data/air_quality_raw
+2025-10-24T02:31:26.578805+00:00,INFO,"Inspection du fichier data/air_quality_raw/air_quality_global.csv effectuée : 6480 lignes, 0 doublons"
+2025-10-24T02:35:35.604967+00:00,INFO,"Calcul T_log global effectué: n=6480, d=1, T_log=-26.3294, régime=Divergence"
+2025-10-24T02:37:59.661710+00:00,INFO,"Calcul T_log New York effectué: n=324, d=1, T_log=-17.3422, régime=Divergence"
+2025-10-24T02:43:20.220350+00:00,INFO,"Sensibilité T_log(d) PM2.5 global sauvegardée: results/Tlog_vs_d_air_quality_global.png, results/Tlog_vs_d_air_quality_global.csv"
+2025-10-24T02:46:29.179503+00:00,INFO,"Sensibilité T_log(d) PM2.5 New York sauvegardée: results/Tlog_vs_d_air_quality_NewYork.png, results/Tlog_vs_d_air_quality_NewYork.csv"
+2025-10-24T02:49:27.736621+00:00,INFO,"Sensibilité T_log(n) PM2.5 global sauvegardée: results/Tlog_vs_n_air_quality_global.png, results/Tlog_vs_n_air_quality_global.csv"
+2025-10-24T02:52:45.439672+00:00,INFO,"Sensibilité T_log(n) PM2.5 New York sauvegardée: results/Tlog_vs_n_air_quality_NewYork.png, results/Tlog_vs_n_air_quality_NewYork.csv"
+2025-10-24T02:56:56.472931+00:00,INFO,Comparaison T_log(n) Global vs New York sauvegardée: results/Tlog_vs_n_comparison_Global_vs_NewYork.png
+2025-10-24T02:59:58.539389+00:00,INFO,Rapport intermédiaire sauvegardé: results/rapport_intermediaire_PM25.md
+2025-10-24T03:05:34.321746+00:00,INFO,"Bootstrap T_log global: B=1000, mode=subsample, p=0.0000, IC=(-26.2832,-24.3240), plot=results/bootstrap_Tlog_global.png, CSV=results/bootstrap_Tlog_global.csv"
+2025-10-24T03:11:09.669398+00:00,INFO,"Bootstrap T_log New York: B=1000, p=0.0060, IC=(-17.2958,-15.3360), plot=results/bootstrap_Tlog_NewYork.png, CSV=results/bootstrap_Tlog_NewYork.csv"
+2025-10-24T03:22:01.121268+00:00,INFO,"Bootstrap multi-d (PM2.5) sauvegardé: CSV=results/bootstrap_multi_d_PM25_Global_NewYork.csv, plots=results/bootstrap_pvalues_vs_d_Global_NewYork.png, results/bootstrap_Tlog_distributions_multi_d.png"
+2025-10-24T03:47:45.472488+00:00,INFO,"Stress tests et diagnostics sauvegardés: rapport=results/stress_tests_diagnostics_PM25.md, figure=results/residuals_diagnostics_PM25.png"
+2025-10-24T03:57:20.244760+00:00,INFO,Final consolidated report saved: results/final_report_PM25_en.md
