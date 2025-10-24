@@ -1,0 +1,17 @@
+Block,Description,timestamp,block,status,csv_main,csv_aux,plot
+Bloc 16,sensitivity scan around d=4,,,,,,
+,,2025-10-24T06:45:53.604033,17.0,success,/content/permutation_test_d4.csv,/content/permutation_true_d4_by_decade.csv,/content/permutation_test_d4.png
+Bloc 18,temporal granularity robustness test at d=4,2025-10-24T06:55:01.219703,18.0,success,/content/bloc18_year_granularity.csv,/content/bloc18_quarter_granularity.csv,/content/bloc18_year_granularity.png
+,,2025-10-24T07:10:35.513869,19.0,success,bloc19_missing_data.csv,,bloc19_missing_data.png
+,,2025-10-24T07:15:55.944026,20.0,success,bloc20_memory_offcritical.csv,,bloc20_memory_offcritical.png
+,,2025-10-24T07:18:32.092793,20.0,success,/content/bloc20_memory_offcritical.csv,,/content/bloc20_memory_offcritical.png
+,,2025-10-24T07:25:34.045458,20bis,success,/content/bloc20bis_memory_local.csv,,/content/bloc20bis_memory_local.png
+,,2025-10-24T07:29:19.404623,21,success,/content/bloc21_memory_noise.csv,,/content/bloc21_memory_noise.png
+,,2025-10-24T07:33:08.333550,22,success,/content/bloc22_memory_noise_offcritical.csv,,/content/bloc22_memory_noise_offcritical.png
+,,2025-10-24T07:36:29.182782,23,success,/content/bloc23_spatial_memory_noise.csv,,/content/bloc23_spatial_memory_noise.png
+,,2025-10-24T07:40:05.547210,24,success,/content/bloc24_multifactor.csv,,/content/bloc24_multifactor.png
+,,2025-10-24T07:44:23.031750,25,success,/content/bloc25_simulated.csv,,/content/bloc25_simulated.png
+,,2025-10-24T07:51:30.444665,26,success,/content/bloc26_eval_metrics.csv,,/content/bloc26_residuals.png
+,,2025-10-24T07:53:59.170613,27,success,/content/bloc27_model_comparison.csv,,/content/bloc27_model_comparison.png
+,,2025-10-24T07:57:49.471508,28,success,/content/bloc28_crossval.csv,,
+,,2025-10-24T08:00:53.412710,29,success,/content/bloc29_final_synthesis.md,,

@@ -1,0 +1,11 @@
+timestamp,level,message
+2025-10-24T04:33:29.159331,INFO,Répertoire /content/sample_data supprimé.
+2025-10-24T04:33:29.165785,INFO,Préparation terminée: environnement prêt.
+2025-10-24T04:40:00.121906,INFO,Fichiers extraits: ['earthquake_data_tsunami.csv']
+2025-10-24T04:40:00.179881,INFO,"Inspection earthquake_data_tsunami.csv: (782, 13), NaN=0, empty_cols=0"
+2025-10-24T04:46:48.823032,INFO,"Calcul T_log: n=782, d=3, T_log=-6.6619, régime=Divergence (instabilité)"
+2025-10-24T04:50:38.495270,INFO,"Bloc 4 terminé: balayage d=2→5, résultats sauvegardés, plot=results/tlog_vs_d.png"
+2025-10-24T04:53:12.352050,INFO,"Bloc 5.1 terminé: stress test sur n effectué, plot=results/tlog_vs_n.png"
+2025-10-24T04:56:10.866333,INFO,"Bloc 5.2 terminé: bootstrap effectué, moyenne=-6.6619, std=0.0000, IC95=[-6.6619, -6.6619]"
+2025-10-24T04:59:03.161277,INFO,"Bloc 5.3 terminé: Validation quantitative effectuée, MSE=0.0000, R²=1.0000"
+2025-10-24T05:01:41.748074,INFO,Bloc 5.4 terminé: heatmap générée et sauvegardée (results/heatmap_regimes.png)

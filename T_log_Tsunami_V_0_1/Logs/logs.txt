@@ -1,0 +1,9 @@
+2025-10-24 04:33:29,156 | INFO | Répertoire /content/sample_data détecté et supprimé.
+2025-10-24 04:33:29,161 | INFO | Préparation terminée: librairies importées, seeds fixés, dossiers créés, logger opérationnel.
+2025-10-24 04:40:00,119 | INFO | Fichiers extraits: ['earthquake_data_tsunami.csv']
+2025-10-24 04:46:48,826 | INFO | Calcul T_log terminé: -6.6619, régime=Divergence (instabilité)
+2025-10-24 04:50:38,497 | INFO | Bloc 4 terminé: classification et visualisation effectuées.
+2025-10-24T04:53:12.354044 | INFO | Bloc 5.1 terminé: stress test sur n effectué, plot=results/tlog_vs_n.png
+2025-10-24 04:56:10,868 | INFO | Bloc 5.2 terminé: bootstrap effectué, histogramme et boxplot sauvegardés.
+2025-10-24 04:59:03,167 | INFO | Bloc 5.3 terminé: Validation quantitative effectuée, MSE=0.0000, R²=1.0000
+2025-10-24 05:01:41,752 | INFO | Bloc 5.4 terminé: heatmap générée et sauvegardée.

@@ -1,0 +1,16 @@
+Bloc 16 completed: sensitivity scan around d=4
+[2025-10-24T06:45:53.604033] Bloc 17 executed: CSV=/content/permutation_test_d4.csv, PLOT=/content/permutation_test_d4.png, TRUE_CSV=/content/permutation_true_d4_by_decade.csv
+Bloc 18 completed: temporal granularity robustness test at d=4
+[2025-10-24T07:10:35.513869] Bloc 19 executed: CSV=bloc19_missing_data.csv, PLOT=bloc19_missing_data.png
+[2025-10-24T07:15:55.944026] Bloc 20 executed: CSV=bloc20_memory_offcritical.csv, PLOT=bloc20_memory_offcritical.png
+[2025-10-24T07:18:32.092793] Bloc 20 executed: CSV=/content/bloc20_memory_offcritical.csv, PLOT=/content/bloc20_memory_offcritical.png
+[2025-10-24T07:25:34.045458] Bloc 20bis executed: CSV=/content/bloc20bis_memory_local.csv, PLOT=/content/bloc20bis_memory_local.png
+[2025-10-24T07:29:19.404623] Bloc 21 executed: CSV=/content/bloc21_memory_noise.csv, PLOT=/content/bloc21_memory_noise.png
+[2025-10-24T07:33:08.333550] Bloc 22 executed: CSV=/content/bloc22_memory_noise_offcritical.csv, PLOT=/content/bloc22_memory_noise_offcritical.png
+[2025-10-24T07:36:29.182782] Bloc 23 executed: CSV=/content/bloc23_spatial_memory_noise.csv, PLOT=/content/bloc23_spatial_memory_noise.png
+[2025-10-24T07:40:05.547210] Bloc 24 executed: CSV=/content/bloc24_multifactor.csv, PLOT=/content/bloc24_multifactor.png
+[2025-10-24T07:44:23.031750] Bloc 25 executed: CSV=/content/bloc25_simulated.csv, PLOT=/content/bloc25_simulated.png
+[2025-10-24T07:51:30.444665] Bloc 26 executed: CSV=/content/bloc26_eval_metrics.csv, PLOT=/content/bloc26_residuals.png
+[2025-10-24T07:53:59.170613] Bloc 27 executed: CSV=/content/bloc27_model_comparison.csv, PLOT=/content/bloc27_model_comparison.png
+[2025-10-24T07:57:49.471508] Bloc 28 executed: CSV=/content/bloc28_crossval.csv
+[2025-10-24T08:00:53.405921] Bloc 29 executed: REPORT=/content/bloc29_final_synthesis.md
